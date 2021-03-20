@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: url("../img/pattern.png");
+
+     font-family: Georgia;
+     line-height: 1.5;
+     font-size: 20px;
+}
+
+.card {
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: silver;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+   
+    
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(37, 37, 158)
+}
+
+.card-text {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-subtitle  {
+    font-size: 25;
+    color: red;
+    
+    
+}
+
+.card-list {
+    font-size: 20px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.salePayment {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
