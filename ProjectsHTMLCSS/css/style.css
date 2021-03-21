@@ -41,9 +41,10 @@ body {
 }
 
 .textClass {
-    
-    width: 350px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    width: 550px;
     height: 350px;
+    font-size: 1rem;
 }
 
 .salePayment {
@@ -51,13 +52,19 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.button.is-primary {
-    background-color: #00d1b2;
-    border-color: transparent;
+.button {
     color: #fff;
     text-align: center;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+-webkit-text-size-adjust: 100%;
+font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1rem;
+color: #3273dc;
+cursor: pointer;
+text-decoration:initial;
+width: 100%;
 }
-
 /*<div>
 <h1 class=card-title></h1>
 <div class="card-text">
@@ -65,3 +72,27 @@ body {
   <input value="Нажми меня" onclick="alert('Клик!')" type="button">
 
 </div>
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-box-sizing: inherit;
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #00d1b2;
+    width: 100%;
+
+        -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: inherit;
