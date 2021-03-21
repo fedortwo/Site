@@ -7,52 +7,61 @@ body {
      font-size: 20px;
 }
 
-.card {
-    padding: 20px;
-    width: 400px;
+.section {
+    padding-top: 3rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+
+}
+
+.container {
     margin: 0 auto;
-    background-color: silver;
-    box-shadow: 0 5px 10px #ccc;
-    border-radius: 10px;
+    padding: auto;
+    position: relative;
+    box-sizing: inherit;
+      
+}
+
+.columns { 
+    display: flex;
+    margin: 0 auto;
+    padding: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.column {
    
+   flex-grow: 1;
+   scroll-padding: 50;
+   box-sizing: border-box;
+  
+}
+
+.textClass {
     
-}
-
-.card-photo {
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-.card-title {
-    font-size: 30px;
-    text-align: center;
-    color: rgb(37, 37, 158)
-}
-
-.card-text {
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.card-subtitle  {
-    font-size: 25;
-    color: red;
-    
-    
-}
-
-.card-list {
-    font-size: 20px;
-    padding-left: 0;
-    list-style-position: inside;
+    width: 350px;
+    height: 350px;
 }
 
 .salePayment {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-
-    
 }
+
+.button.is-primary {
+    background-color: #00d1b2;
+    border-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+/*<div>
+<h1 class=card-title></h1>
+<div class="card-text">
+    <script src="js/newcode.js">  </script>
+  <input value="Нажми меня" onclick="alert('Клик!')" type="button">
+
+</div>
